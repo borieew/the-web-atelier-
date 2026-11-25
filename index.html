@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Web Atelier by Oluwabori Ayanbanjo. Shopify design and development, Klaviyo email marketing, and AI automation.">
+<meta name="theme-color" content="#080c1d">
+<title>The Web Atelier — Oluwabori</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="xray.css">
+<script src="content.js" defer></script>
+<script src="app.js" defer></script>
+<script src="scanner.js" defer></script>
+<script src="readiness.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top wrap">
+<a class="brand" href="./"><span class="mark" aria-hidden="true">✦</span><span>The Web<br>Atelier<span class="dot">.</span></span></a>
+<nav aria-label="Main navigation"><a href="#scan">The scan</a><a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a></nav>
+<a class="pill outline" href="#contact">Let’s talk <span aria-hidden="true">→</span></a>
+</header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="headline">
+<div class="hero-copy">
+<p class="eyebrow"><span></span> SHOPIFY DEVELOPMENT & E-COMMERCE</p>
+<h1 id="headline">I see what your<br><em>customers see.</em></h1>
+<p class="intro" id="intro"></p>
+<a class="pill primary" href="#scan">Run the scan <span aria-hidden="true">↓</span></a>
+<a class="hero-link" href="#work">View portfolio →</a>
+</div>
+<figure class="portrait"><div class="scan-portrait"><img src="assets/img/oluwabori.webp" alt="Oluwabori Ayanbanjo in a navy suit" fetchpriority="high"><span class="portrait-beam" aria-hidden="true"></span></div><figcaption><span>Oluwabori Ayanbanjo</span><small>Founder, The Web Atelier</small></figcaption></figure>
+</section>
+<div class="ribbon"><div class="wrap"><span>Shopify development</span><b aria-hidden="true">✦</b><span>Klaviyo email</span><b aria-hidden="true">✦</b><span>AI automation</span><b aria-hidden="true">✦</b><span>Vibe coding</span></div></div>
+<section class="wrap scan-section" id="scan" aria-labelledby="scan-heading">
+<div class="section-head"><div><p class="eyebrow">THE STOREFRONT X-RAY</p><h2 id="scan-heading">Look beneath the hero<span class="dot">.</span></h2></div><p>Choose a store and drag the scanner across its homepage to reveal what shapes the shopping experience.</p></div>
+<div class="scan-console">
+<div class="scan-menu" id="scan-menu" role="group" aria-label="Choose storefront"></div>
+<div class="scan-main">
+<div class="scan-top"><span id="scan-store"></span><span>STOREFRONT ANALYSIS</span></div>
+<div class="scan-screen" id="scan-screen">
+<img id="scan-image" alt="">
+<div class="scan-tint" aria-hidden="true"></div>
+<div class="scan-markers" id="scan-markers" aria-hidden="true"></div>
+<div class="scan-beam" aria-hidden="true"><span>‹ ›</span></div>
+<input id="scan-range" type="range" min="0" max="100" value="50" aria-label="Reveal storefront analysis">
+</div>
+</div>
+<ol class="scan-notes" id="scan-notes" aria-label="Storefront findings" aria-live="polite"></ol>
+</div>
+</section>
+<section class="wrap work" id="work">
+<div class="section-head"><div><p class="eyebrow">THE PORTFOLIO</p><h2>Selected work<span class="dot">.</span></h2></div><p>Explore the storefronts, from first impression to product discovery and purchase decisions.</p></div>
+<div class="work-showcase" aria-label="Portfolio showcase">
+<div id="projects"></div>
+<div class="work-toolbar">
+<div class="work-picker" id="work-picker" role="group" aria-label="Choose a portfolio project"></div>
+<div class="work-controls">
+<button id="work-prev" type="button" aria-label="Previous project">←</button>
+<span id="work-position" aria-live="polite" aria-atomic="true"></span>
+<button id="work-next" type="button" aria-label="Next project">→</button>
+</div>
+</div>
+</div>
+</section>
+<section class="services" id="services"><div class="wrap">
+<div class="section-head"><div><p class="eyebrow">SERVICES</p><h2>Build. Grow. Run.</h2></div><p>From your first Shopify launch to the systems that keep it running.</p></div>
+<div id="service-list"></div>
+</div></section>
+<section class="wrap about" id="about"><div><p class="eyebrow">BEHIND THE STUDIO</p><h2>Hi, I’m Oluwabori<span class="dot">.</span></h2></div><div><p id="bio"></p><p class="location">Nigeria · Working with brands worldwide</p></div></section>
+<section class="contact" id="contact"><div class="wrap"><p class="eyebrow">WORK WITH ME</p><h2>Let’s build your<br>next storefront.</h2><p>Launching a Shopify store, reworking the one you have, or looking to bring more customers back?</p><div id="contact-links"></div></div></section>
+<section class="wrap readiness" id="readiness" aria-labelledby="readiness-title">
+<p class="eyebrow">SCAN YOURSELF</p>
+<h2 id="readiness-title">How ready is your store?</h2>
+<p class="readiness-intro">Tick what your store already has.</p>
+<div class="readiness-grid">
+<fieldset class="readiness-list" id="readiness-list"><legend class="visually-hidden">Store readiness checklist</legend></fieldset>
+<div class="readiness-card">
+<div class="readiness-ring" id="readiness-ring" aria-hidden="true"><div><strong id="readiness-value">0</strong><span>/100</span></div></div>
+<p class="eyebrow">YOUR STORE SCORE</p>
+<div class="readiness-result" role="status" aria-atomic="true">
+<span id="readiness-announcement" class="visually-hidden">0 out of 100.</span>
+<h3 id="readiness-rating">Needs a scan</h3>
+<p id="readiness-advice">Start by checking how quickly your homepage loads and testing checkout on a phone.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="wrap foot"><a class="brand" href="#"><span class="mark" aria-hidden="true">✦</span><span>The Web Atelier<span class="dot">.</span></span></a><span>Oluwabori Ayanbanjo</span><a href="#main">Back to top ↑</a></footer>
+<dialog id="case" aria-labelledby="case-title"><div class="case-top"><span>THE WEB ATELIER / PORTFOLIO</span><form method="dialog"><button class="close" aria-label="Close project">×</button></form></div><div id="case-body"></div></dialog>
+</body>
+</html>
