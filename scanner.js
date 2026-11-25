@@ -23,7 +23,7 @@ function updateScan() {
 function selectScan(project, selectedButton) {
   scanButtons.forEach(button => button.setAttribute('aria-pressed', String(button === selectedButton)));
   $('#scan-store').textContent = new URL(project.url).hostname;
-  scanImage.src = 'assets/img/' + project.id + '-desk.jpg';
+  scanImage.src = './' + project.id + '-desk.jpg';
   scanImage.alt = project.name + ' homepage screenshot';
   scanMarkers.replaceChildren();
   scanNotes.replaceChildren();

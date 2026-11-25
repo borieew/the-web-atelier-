@@ -17,7 +17,7 @@ function link(text, url, className) {
 }
 function screenshot(project, variant, loading = 'lazy') {
   const image = element('img');
-  image.src = 'assets/img/' + project.id + '-' + variant + '.jpg';
+  image.src = './' + project.id + '-' + variant + '.jpg';
   const page = { product: ' product page', collection: ' collection page' };
   image.alt = project.name + (page[variant] || ' homepage');
   image.loading = loading;
